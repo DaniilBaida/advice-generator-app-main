@@ -16,6 +16,7 @@ const getAdvice = async () => {
     })
     .catch((error) => console.error(error));
 };
+getAdvice();
 
 buttonDice.addEventListener("click", function () {
   getAdvice();
